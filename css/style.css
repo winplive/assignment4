@@ -1,0 +1,71 @@
+
+body {
+    margin: 0px;
+    padding: 40px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position:50% 65%;
+    background-attachment:scroll;
+    background-size:400px 400px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../sju-log.png");
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 90px;
+    background-image: url("../sju-log.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10;
+    padding-right: 40px;
+    color: rgb(84, 82, 105); 
+}
+
+.title p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-align: left;
+}
+.address p{
+    margin-left:auto;
+    text-align: right;
+    font-size: 13px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.signature{
+    font-size: 25px;
+}
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify; 
+    line-height: 1.6; 
+    font-size: 17px;
+    word-wrap: break-word;
+}
+.Subject{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: justify; 
+    line-height: 1.6; 
+    font-size: 18px;
+    word-wrap: break-word;
+}
